@@ -1,0 +1,240 @@
+# ApexPlanet Internship – Task 2
+
+## Exploratory Data Analysis (EDA) & Business Intelligence
+
+### 📌 Project Overview
+
+This project is part of the **60-Day Data Analytics Internship Program at ApexPlanet Software Pvt. Ltd.**
+
+The objective of Task 2 is to explore a sales and customer transaction dataset, identify meaningful patterns and trends, answer business questions using SQL, perform multivariate analysis, and develop an initial dashboard concept based on the insights obtained from the data.
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this project are:
+
+* Perform exploratory data analysis on the cleaned dataset.
+* Calculate descriptive statistics for numerical and categorical variables.
+* Analyze individual variables using appropriate visualizations.
+* Develop and answer business-oriented questions using SQL.
+* Identify relationships and correlations between variables.
+* Perform multivariate analysis to discover meaningful patterns.
+* Identify key business insights from the dataset.
+* Design a static dashboard mock-up highlighting important KPIs and metrics.
+
+---
+
+## 📊 Dataset Overview
+
+The dataset contains **1,000 transaction records and 12 variables** related to customers, orders, products, pricing, and sales.
+
+### Main Categories of Variables
+
+**Customer Information**
+
+* Customer ID
+* Customer Name
+* Age
+* Gender
+* City
+
+**Order Information**
+
+* Order ID
+* Order Date
+* Product
+* Category
+* Quantity
+
+**Sales Information**
+
+* Unit Price
+* Total Sales
+
+---
+
+## 🛠️ Tools & Technologies
+
+The following tools were used for the analysis:
+
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **SQL**
+* **Excel**
+* **Power BI** *(for dashboard planning)*
+
+---
+
+## 🔍 Exploratory Data Analysis
+
+The EDA process was performed in multiple stages.
+
+### 1. Descriptive Statistics
+
+Summary statistics were calculated to understand the distribution of numerical variables such as:
+
+* Age
+* Quantity
+* Unit Price
+* Total Sales
+
+Measures such as mean, minimum, maximum, and standard deviation were analyzed.
+
+### 2. Univariate Analysis
+
+Individual variables were explored using visualizations such as:
+
+* Histograms
+* Bar charts
+* Box plots
+* Frequency distributions
+
+This helped identify the distribution and general behavior of different variables.
+
+### 3. Product & Category Analysis
+
+Sales performance was analyzed across different products and categories to identify the strongest and weakest performers.
+
+### 4. Geographical Analysis
+
+Sales were compared across different cities to identify geographical patterns and high-performing locations.
+
+### 5. Time-Series Analysis
+
+Order dates were analyzed to identify monthly sales trends and changes in sales performance over time.
+
+### 6. Customer Analysis
+
+Customer characteristics such as age and gender were explored to understand purchasing patterns.
+
+### 7. Correlation & Multivariate Analysis
+
+Relationships between numerical variables were investigated using:
+
+* Correlation analysis
+* Scatter plots
+* Correlation heatmaps
+* Multivariate comparisons
+
+---
+
+## 💼 Business Questions
+
+The following business questions were investigated:
+
+1. Which product category generates the highest sales?
+2. What are the top-performing products by total sales?
+3. Which city generates the highest sales?
+4. What is the monthly sales trend?
+5. Which gender contributes more to total sales?
+6. Which customers generate the highest revenue?
+7. Is there a relationship between quantity purchased and total sales?
+
+These questions were used to guide the SQL analysis and business interpretation.
+
+---
+
+## 📈 Key Findings
+
+Some of the major findings from the analysis include:
+
+* **Electronics** is the highest-performing product category by sales.
+* **Laptop** is the top-performing product among the products analyzed.
+* **Patna** records the highest sales among the cities in the dataset.
+* Sales show noticeable variation across different months.
+* Male customers contribute slightly higher total sales than female customers.
+* **Unit Price** and **Quantity** show positive relationships with Total Sales.
+* Customer **Age** shows almost no linear relationship with Total Sales.
+
+---
+
+## 📊 Correlation Analysis
+
+Correlation analysis was performed to understand the relationship between numerical variables.
+
+The analysis showed that:
+
+* **Unit Price** has a positive relationship with Total Sales.
+* **Quantity** has a positive relationship with Total Sales.
+* **Age** has almost no linear relationship with Total Sales.
+
+These results help identify variables that may be useful for further business analysis.
+
+---
+
+## 🗃️ SQL Analysis
+
+SQL was used to answer business-oriented questions involving:
+
+* Sales aggregation
+* Product ranking
+* Category performance
+* City-level sales
+* Customer revenue
+* Monthly sales trends
+* Filtering and grouping of transaction data
+
+The SQL queries and their results are included in the repository.
+
+---
+
+## 📊 Dashboard Mock-up
+
+Based on the insights obtained from the EDA, an initial dashboard concept was designed to highlight important business metrics.
+
+### Proposed KPIs
+
+* Total Sales
+* Total Orders
+* Total Customers
+* Average Order Value
+
+### Proposed Visualizations
+
+* Monthly Sales Trend
+* Sales by Category
+* Sales by Product
+* Sales by City
+* Customer/Gender Analysis
+
+The dashboard mock-up serves as the foundation for the interactive dashboard that will be developed in the next stage of the internship.
+
+---
+
+
+---
+
+## 📌 Deliverables
+
+This repository contains the following Task 2 deliverables:
+
+* EDA analysis notebook
+* Cleaned dataset
+* SQL queries and results
+* EDA findings and visualizations
+* Business insights
+* Dashboard mock-up
+* Presentation
+
+---
+
+## 🎓 Learning Outcomes
+
+Through this task, I developed practical experience in:
+
+* Exploratory Data Analysis
+* Data visualization
+* Descriptive statistics
+* SQL for business analysis
+* Correlation analysis
+* Multivariate analysis
+* Business question formulation
+* Insight generation
+* Dashboard planning
+* Data-driven decision making
+
+
